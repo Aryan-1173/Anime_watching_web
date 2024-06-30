@@ -1,0 +1,41 @@
+/* main the navigation bar div  */
+.nav {
+    height: 75px;
+    background-color: rgb(138, 43, 226, 0.9);
+    display: flex;
+    align-items: center;
+}
+/* div of the search bar  */
+.searchbar {
+    display: flex;
+}
+/* properties for the button not the div taf filter */
+#fil {
+    border-width: 0px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgb(101, 5, 190);
+    color: white;
+    margin-left: 2px;
+}
+
+
+/* for the icon2 */
+.icon2 {
+    background-color: white;
+    display: flex;
+    font-size: 20px;
+    width: 60px;
+    padding: 8px;
+}
+/* for the changing the height width of the input search bar  */
+input[type="search"] {
+    width: 250px;
+    height: 40px;
+    border-right-color: white;
+    border-width: 0px;
+}
+
+
